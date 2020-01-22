@@ -9,7 +9,7 @@ def fizzbuzz (int)
   elsif int % 5  
     puts "Buzz"
   elsif int % 15 
-    puts "FIZZBUZZ"
+    puts "FizzBuzz"
   else
     puts "nil"
 end
