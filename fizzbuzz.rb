@@ -5,5 +5,13 @@ require_relative 'spec/fizzbuzz_spec.rb'
 # See README.md for instructions on how to do this
 
 
-def fizzbuzz_spec
+def fizzbuzz (int)
+  if int % 3 
+    puts "Fizz"
+  elsif int % 5
+    puts "Buzz"
+elsif int % 15
+puts "FIZZBUZZ"
+else
+  puts "nil"
 end
