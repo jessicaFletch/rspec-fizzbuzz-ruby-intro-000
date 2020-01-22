@@ -6,12 +6,18 @@ require_relative 'spec/fizzbuzz_spec.rb'
 
 
 def fizzbuzz (int)
+  int = gets.chomp!
   if int % 3 
     puts "Fizz"
   elsif int % 5
     puts "Buzz"
-elsif int % 15
-puts "FIZZBUZZ"
-else
-  puts "nil"
+  elsif int % 15
+    puts "FIZZBUZZ"
+  else
+    puts "nil"
 end
+
+fizzbuzz(3)
+fizzbuzz(5)
+fizzbuzz(15
+fizzbuzz(4)
