@@ -15,3 +15,7 @@ def fizzbuzz (int)
   else 
     puts "nil"
 end    
+
+
+fizzbuzz(3)
+
